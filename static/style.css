@@ -1,6 +1,5 @@
 #sales-tracker {
-  padding: 200px 0;
-  background-color: #3498db;
+  padding-top: 50px;
   font-family: WhitneyHTF-Light, "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -8,6 +7,11 @@
 
 .headline, h1, h2, h3, h4, h5 {
   font-family: WhitneyHTF-Bold, "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Img */
+img {
+  width: 100%;
 }
 
 /* Logo */
@@ -18,6 +22,10 @@
 }
 
 /* Login */
+.login-page {
+  padding: 200px 0;
+  background-color: #3498db;
+}
 .login-page .headline {
   font-size: 26px;
   color: white;
@@ -56,4 +64,24 @@
 .login-form button:hover {
   background-color: #3BAAF5;
   color: white;
+}
+
+/* Product */
+.product {
+  overflow: hidden;
+}
+.product .product-code {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  background-color: #EEE;
+  border-radius: 10px 10px 0 0;
+}
+.favorites-pane, .products-pane {
+    margin-bottom: 20px;
+}
+.favorites-pane {
+    background-color: #888;
+    padding: 30px;
+    border-radius: 10px;
 }
