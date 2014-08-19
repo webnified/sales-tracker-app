@@ -1,0 +1,87 @@
+#sales-tracker {
+  padding-top: 50px;
+  font-family: WhitneyHTF-Light, "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Headings */
+
+.headline, h1, h2, h3, h4, h5 {
+  font-family: WhitneyHTF-Bold, "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Img */
+img {
+  width: 100%;
+}
+
+/* Logo */
+.logo {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Login */
+.login-page {
+  padding: 200px 0;
+  background-color: #3498db;
+}
+.login-page .headline {
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  margin: 10px 0 50px;
+}
+
+.login-form {
+  padding: 20px;
+  margin-top: 100px;
+}
+.login-form .form-group input {
+  padding: 20px;
+  height: 55px;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+.login-form .form-group {
+  border: 3px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.login-form .form-group input:first-child() {
+  box-shadow: inset 0 1px 1px #eee;
+}
+.login-form button {
+  width: 100%;
+  display: block;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #63BAF5;
+  color: white;
+}
+.login-form button:hover {
+  background-color: #3BAAF5;
+  color: white;
+}
+
+/* Product */
+.product {
+  overflow: hidden;
+}
+.product .product-code {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  background-color: #EEE;
+  border-radius: 10px 10px 0 0;
+}
+.favorites-pane, .products-pane {
+    margin-bottom: 20px;
+}
+.favorites-pane {
+    background-color: #888;
+    padding: 30px;
+    border-radius: 10px;
+}
